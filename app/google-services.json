@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "268114093254",
+    "firebase_url": "https://named-equator-267312.firebaseio.com",
+    "project_id": "named-equator-267312",
+    "storage_bucket": "named-equator-267312.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268114093254:android:4f02a2da77dc8f13db23c7",
+        "android_client_info": {
+          "package_name": "com.example.recepiapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268114093254-o3qscvalrkkcsg7c73u34bcu4o09kn4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwt15PTjNoX22G2jfT3iYWc20Duxi68y8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268114093254-o3qscvalrkkcsg7c73u34bcu4o09kn4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+   <androidx.cardview.widget.CardView
+       android:id="@+id/layoutCV"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="20dp"
+       app:cardCornerRadius="20dp">
+       <EditText
+           android:id="@+id/textET"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:hint="@string/search"
+           android:textSize="22sp"/>
+   </androidx.cardview.widget.CardView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/layoutCV"
+        android:scrollbars="vertical">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="40dp"
+        android:padding="10dp"
+        android:onClick="UploadBtn"
+        android:layout_alignParentEnd="true"
+        android:background="@color/colorPrimaryDark"
+        android:src="@drawable/ic_file_upload_black_24dp"/>
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ImageUpload">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageUp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/imageup"
+            android:layout_margin="20sp"/>
+        <EditText
+            android:id="@+id/recipeNameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:hint="@string/recipe_name"
+            android:textSize="19sp"/>
+        <EditText
+            android:id="@+id/descriptionET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/description"
+            android:textSize="19sp"/>
+        <EditText
+            android:id="@+id/priceET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/price"
+            android:textSize="19sp"/>
+
+        <Button
+            android:id="@+id/selectBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_image"
+            android:onClick="selectBtn"
+            android:background="@color/colorPrimaryDark"
+            android:layout_margin="10dp"
+            android:padding="10dp"/>
+        <Button
+            android:id="@+id/uploadBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/upload_image"
+            android:onClick="UpLoadImageBtn"
+            android:layout_margin="10dp"
+            android:padding="10dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
